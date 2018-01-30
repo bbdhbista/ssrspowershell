@@ -4,15 +4,13 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!USE YOUR OWN PRIVATE TOKEN FROM GITLAB TO AUTHENTICATE: ONLY NEEDS TO BE DONE ONCE !!!!!!!!
 
 
-
 AUTHOR: BIBIDH BISTA
-LAST UPDATE DATE: 09/07/2017
+
 
 
 
 POWERSHELL COMMAND:
-./Ind_rpt_deploy.ps1 -gitLabPath "https://ServerName.Domain.TLD/SSRS/Accounting/raw/master/Accounting_SSRS/LOC_Fees_Projection.rdl" -reportname "LOC_Fees_Projection.rdl" -servername "sqltest2016" -reportfolder "Test"
-
+./Ind_rpt_deploy.ps1 -gitLabPath "https://serverName.DomainName.TLD/SSRS/Accounting/raw/master/Accounting_SSRS/LOC_Fees_Projection.rdl" -reportname "LOC_Fees_Projection.rdl" -servername "sqltest2016" -reportfolder "Test"
 
 
 
