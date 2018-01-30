@@ -3,6 +3,7 @@
 
 AUTHOR: BIBIDH BISTA
 
+************* USE YOUR OWN PRIVATE TOKEN FROM GITLAB TO AUTHENTICATE: ONLY NEEDS TO BE DONE ONCE *************
 
 
 
@@ -49,7 +50,7 @@ DATASOURCEPATH		                                :DEFAULT:	"/DATA SOURCES"
 			   # Token for access to gitLabPath. Use private token generated from gitlab to authenticate your account!!
 				[Parameter(Mandatory=$False)]
                 [ValidateNotNull()]
-				[string] $token		# Needs to be set up once for every DBA trying to run this script with their own private token from GitLab
+				[string] $token,		# Needs to be set up once for every DBA trying to run this script with their own private token from GitLab
 			   
                
 			   
